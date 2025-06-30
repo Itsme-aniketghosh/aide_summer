@@ -37,6 +37,7 @@
 
 ### Session 2: Simple Neural Network Math by Hand (30 minutes)
 **Manual Calculations**
+- **Material:** [A worked example of backpropagation](https://www.dropbox.com/scl/fi/i6h4cpzp816wda0v1hzxg/NueralNet-Worksheet-For-Students.pdf?rlkey=9br8op4qnltf5kdrv3pm7jg2p&dl=0)
 - **Material:** [Introduction to Math Behind Neural Networks](https://towardsdatascience.com/introduction-to-math-behind-neural-networks-e8b60dbbdeba)
 - Step-by-step forward propagation
 - Weight updates and backpropagation basics
