@@ -62,14 +62,14 @@ A multi-session intensive bootcamp covering Python fundamentals through advanced
 - Attention mechanisms
 - Mathematical foundations of modern AI
 
-### [Lab 07: LLMs with NoAPI & Huggingface Use Cases](Lab07-gentle-LLMs/)
+### [Lab 07: Discovering What LLMs Can Do – 10 Core Capabilities](Lab07-gentle-LLMs/)
 **Duration:** 120 minutes | **Pre-Lab:** 30 minutes
 
 **Key Topics:**
-- Introduction to LLMs and Huggingface
-- Using LLMs in Colab (no API key required)
-- Text generation, sentiment analysis, and classification
-- **Main Exercise:** [LLMs with Huggingface - Colab](https://colab.research.google.com/drive/17-miN5DaP88wsuPZmm4lGYvakkTiWVDV?usp=sharing)
+- 10 fundamental LLM capabilities (classification, NER, zero-shot, QA, summarization, similarity, generation, translation, chat, text-to-image)
+- Using Hugging Face pipelines for each capability
+- Building a research assistant by combining capabilities
+- **Main Exercise:** [Lab 7 Colab: LLM Capabilities](https://colab.research.google.com/drive/1qHTo8fC5L4895GQsZr4itCR7KHHHxEX0?usp=sharing)
 
 ### [Lab 08: LLMs with API](Lab08-commercial-LLMs/)
 **Duration:** 120 minutes | **Pre-Lab:** TBD
@@ -108,7 +108,7 @@ A multi-session intensive bootcamp covering Python fundamentals through advanced
 | [Lab 04](Lab04-advanced-trees/) | Advanced Trees | 120 min | COMPAS exercises & solutions |
 | [Lab 05](Lab05-differential-privacy/) | Differential Privacy | 120 min | Census & sleep data analysis |
 | [Lab 06](Lab06-nn-transformers/) | Neural Networks & LLMs | 120 min | Hand calculations & theory |
-| [Lab 07](Lab07-gentle-LLMs/) | LLMs with NoAPI & Huggingface | 120 min | Huggingface Colab notebook |
+| [Lab 07](Lab07-gentle-LLMs/) | 10 LLM Capabilities & Huggingface | 120 min | LLM Capabilities Colab notebook |
 | [Lab 08](Lab08-commercial-LLMs/) | LLMs with API | 120 min | (To be added) |
 | [Lab 09](Lab09-RAGged-LLMs/) | LLMs with RAG | 120 min | (To be added) |
 | [Lab 10](Lab10-llm-showcase/) | LLM Showcase - Interface | 120 min | (To be added) |
