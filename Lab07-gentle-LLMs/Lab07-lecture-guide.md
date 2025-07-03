@@ -14,9 +14,14 @@
 2. **Reading:**
    - [IBM: What are Word Embeddings?](https://www.ibm.com/think/topics/word-embeddings)  
      *Why:* Gives students foundational understanding of how LLMs represent language, which is crucial before using APIs.
-3. **Watch** (10 min):
+3. **Explore/Reference:**
+   - [Hugging Face Model Hub](https://huggingface.co/models)
+   - [Transformers Documentation](https://huggingface.co/docs/transformers)
+   - [Free Philosophy Texts](https://www.gutenberg.org/browse/categories/5)
+   *Note:* These resources are for exploration and reference before and during the lab.
+4. **Watch** (10 min):
    - [Hugging Face in 15 Minutes](https://www.youtube.com/watch?v=QEaBAZQCtwE)
-4. **Preview the Colab Notebook** (10 min):
+5. **Preview the Colab Notebook** (10 min):
    - Skim through the provided Colab to get familiar with the workflow
 
 ## Lab Schedule
