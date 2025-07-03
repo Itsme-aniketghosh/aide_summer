@@ -4,7 +4,7 @@ This repository contains comprehensive materials for the AIDE Summer Machine Lea
 
 ## Course Overview
 
-A 7-session intensive bootcamp covering Python fundamentals through advanced machine learning concepts, culminating in a capstone project. Each class includes pre-class learning materials, structured lectures, and hands-on exercises with both local Jupyter notebooks and Google Colab integration.
+A multi-session intensive bootcamp covering Python fundamentals through advanced machine learning concepts, culminating in modern LLM use cases and interface design. Each class includes pre-class learning materials, structured lectures, and hands-on exercises with both local Jupyter notebooks and Google Colab integration.
 
 ## Course Structure
 
@@ -53,7 +53,7 @@ A 7-session intensive bootcamp covering Python fundamentals through advanced mac
 - Differential privacy implementation
 - **Exercises:** Census and sleep data privacy analysis
 
-### [Class 6: Neural Networks and LLM Concepts](class6-regression-llm/)
+### [Class 6: Neural Networks and LLM Concepts](class6-nn-transformers/)
 **Duration:** 120 minutes | **Pre-Class:** 2 hr 45 minutes
 
 **Key Topics:**
@@ -62,32 +62,63 @@ A 7-session intensive bootcamp covering Python fundamentals through advanced mac
 - Attention mechanisms
 - Mathematical foundations of modern AI
 
-### [Class 7: Model Deployment and Capstone](class7-capstone/)
-**Duration:** 120 minutes | **Pre-Class:** 2 hr 30 minutes
+### [Class 7: LLMs with NoAPI & Huggingface Use Cases](class7-gentle-LLMs/)
+**Duration:** 120 minutes | **Pre-Class:** 30 minutes
 
 **Key Topics:**
-- Hugging Face model deployment
-- API integration and inference
-- Capstone project development
-- **Main Exercise:** Model deployment lab with real-world applications
+- Introduction to LLMs and Huggingface
+- Using LLMs in Colab (no API key required)
+- Text generation, sentiment analysis, and classification
+- **Main Exercise:** [LLMs with Huggingface - Colab](https://colab.research.google.com/drive/17-miN5DaP88wsuPZmm4lGYvakkTiWVDV?usp=sharing)
+
+### [Class 8: LLMs with API](class8-commercial-LLMs/)
+**Duration:** 120 minutes | **Pre-Class:** TBD
+
+**Key Topics:**
+- Using LLM APIs for scalable NLP
+- Authentication and security
+- Prompt engineering
+- **Main Exercise:** (To be added)
+
+### [Class 9: LLMs with RAG](class9-RAGged-LLMs/)
+**Duration:** 120 minutes | **Pre-Class:** TBD
+
+**Key Topics:**
+- Retrieval-Augmented Generation (RAG)
+- Vector databases and context injection
+- Enhanced LLMs with external data
+- **Main Exercise:** (To be added)
+
+### [Class 10: LLM Showcase - Interface](class10-llm-showcase/)
+**Duration:** 120 minutes | **Pre-Class:** TBD
+
+**Key Topics:**
+- Interface design for LLM applications
+- Demo and presentation of LLM projects
+- Integration and end-to-end solutions
+- **Main Exercise:** (To be added)
+
 ## Quick Navigation
 
 | Class | Topic | Duration | Main Exercises |
 |-------|-------|----------|----------------|
-| [Class 1](class1-intro-programming-python/) | Python Fundamentals | 90 min | Python_Fundamentals_Complete.ipynb |
-| [Class 2](class2-classification-data/) | Classification & Data | 90 min | 6 focused ML notebooks |
-| [Class 3](class3-ml-fairness/) | ML Fairness & Bias | 90 min | What-If Tool exploration |
-| [Class 4](class4-advanced-trees/) | Advanced Trees | 90 min | COMPAS exercises & solutions |
-| [Class 5](class5-differential-privacy/) | Differential Privacy | 90 min | Census & sleep data analysis |
-| [Class 6](class6-regression-llm/) | Neural Networks & LLMs | 90 min | Hand calculations & theory |
-| [Class 7](class7-capstone/) | Model Deployment | 125 min | Hugging Face deployment lab |
+| [Class 1](class1-intro-programming-python/) | Python Fundamentals | 120 min | Python_Fundamentals_Complete.ipynb |
+| [Class 2](class2-classification-data/) | Classification & Data | 120 min | 6 focused ML notebooks |
+| [Class 3](class3-ml-fairness/) | ML Fairness & Bias | 120 min | What-If Tool exploration |
+| [Class 4](class4-advanced-trees/) | Advanced Trees | 120 min | COMPAS exercises & solutions |
+| [Class 5](class5-differential-privacy/) | Differential Privacy | 120 min | Census & sleep data analysis |
+| [Class 6](class6-nn-transformers/) | Neural Networks & LLMs | 120 min | Hand calculations & theory |
+| [Class 7](class7-gentle-LLMs/) | LLMs with NoAPI & Huggingface | 120 min | Huggingface Colab notebook |
+| [Class 8](class8-commercial-LLMs/) | LLMs with API | 120 min | (To be added) |
+| [Class 9](class9-RAGged-LLMs/) | LLMs with RAG | 120 min | (To be added) |
+| [Class 10](class10-llm-showcase/) | LLM Showcase - Interface | 120 min | (To be added) |
 
 ## Repository Structure
 
 Each class folder contains:
 - **`class[#]-lecture-guide.md`** – Comprehensive instructor guides with navigation, schedules, and resources
-- **`exercises/`** – Hands-on coding exercises in Jupyter notebook format
-- **Supporting files** – Datasets, worksheets, and additional materials
+- **`exercises/`** – Hands-on coding exercises in Jupyter notebook format (where applicable)
+- **`tutorials/`** – Guides, worksheets, and additional materials
 
 ### Key Features
 - **🔗 Consistent Navigation:** All lecture guides include course breadcrumbs and cross-references
@@ -98,7 +129,7 @@ Each class folder contains:
 
 ## Getting Started
 
-### For Students:
+### For Local Use:
 1. **Clone the repository:**
    ```bash
    git clone [repository-url]
@@ -114,18 +145,17 @@ Each class folder contains:
    - Complete pre-class materials (listed in each lecture guide)
    - Attend sessions
    - Work through exercises
-   - Apply concepts in the capstone project
+   - Apply concepts in the final showcase
 
 ## Technical Requirements
 - **Python 3.7+** with standard data science libraries (pandas, numpy, scikit-learn)
 - **Jupyter Lab/Notebook** for local development
 - **Google Account** for Colab access
-- **Hugging Face Account** (Class 7)
+- **Hugging Face Account** (Class 7+)
 
 ## External Resources and Links
 
 All external links have been verified and updated, including:
-- Fixed archived links for historical resources
 - Google Colab integration for all major exercises
 - Current Hugging Face and ML platform references
 
