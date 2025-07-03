@@ -1,4 +1,4 @@
-# Class 6: Regression Trees and LLM Concepts - Lecture Guide
+# Class 6: Neural Networks and Transformers - Lecture Guide
 
 ## Table of Contents
 1. [Pre-Class Learning](#pre-class-learning)
@@ -112,4 +112,4 @@ By the end of this class, students will be able to:
 
 ## Navigation
 **Previous Class:** [← Class 5 - Differential Privacy](../class5-differential-privacy/class5-lecture-guide.md)  
-**Next Class:** [→ Class 7 - Capstone Project](../class7-capstone/class7-lecture-guide.md)
+**Next Class:** [Class 7 - LLMs with NoAPI & Huggingface Use Cases →](../class7-capstone/class7-lecture-guide.md)
