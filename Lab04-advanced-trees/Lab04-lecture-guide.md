@@ -1,15 +1,15 @@
-# Class 4: Advanced Decision Trees and ML Fairness - Lecture Guide
+# Lab 4: Advanced Decision Trees and ML Fairness - Lecture Guide
 
 ## 📋 Table of Contents
 - [Overview](#overview)
-- [Class Schedule](#class-schedule)
+- [Lab Schedule](#lab-schedule)
 - [Learning Objectives](#learning-objectives)
 - [Quick Links](#quick-links)
 
 ## Overview
 Comprehensive ML fairness analysis using the COMPAS recidivism dataset, covering decision trees, fairness metrics, and multiple algorithm comparison.
 
-## Class Schedule
+## Lab Schedule
 
 ### Session 1: COMPAS Dataset & Ethics (25 minutes)
 - Load and clean COMPAS recidivism dataset 
@@ -31,7 +31,7 @@ Comprehensive ML fairness analysis using the COMPAS recidivism dataset, covering
 ## Learning Objectives
 Students will learn to:
 - **Analyze** COMPAS criminal justice dataset with ethical context
-- **Build** decision tree classifiers and compare with benchmarks  
+- **Build** decision tree labifiers and compare with benchmarks  
 - **Assess** ML fairness using FairLearn metrics and visualizations
 - **Compare** multiple algorithms (Random Forest, SVM, KNN) for performance and fairness
 - **Understand** real-world impact of algorithmic bias in criminal justice
@@ -64,8 +64,8 @@ Students will learn to:
 
 ### 🗂️ Navigation
 - [← Back to Main Course](../README.md)
-- [← Previous: Class 3 - ML Fairness](../class3-ml-fairness/class3-lecture-guide.md)
-- [→ Next: Class 5 - Differential Privacy](../class5-differential-privacy/class5-lecture-guide.md)
+- [← Previous: Lab 3 - ML Fairness](../lab3-ml-fairness/lab3-lecture-guide.md)
+- [→ Next: Lab 5 - Differential Privacy](../lab5-differential-privacy/lab5-lecture-guide.md)
 
 
 

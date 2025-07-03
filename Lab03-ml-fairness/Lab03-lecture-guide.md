@@ -1,15 +1,15 @@
-# Class 3: ML Fairness and Algorithmic Bias - Lecture Guide
+# Lab 3: ML Fairness and Algorithmic Bias - Lecture Guide
 
 ## 📋 Table of Contents
 - [Overview](#overview)
-- [Class Schedule](#class-schedule)
+- [Lab Schedule](#lab-schedule)
 - [Learning Objectives](#learning-objectives)
 - [Quick Links](#quick-links)
 
 ## Overview
 Exploration of fairness in machine learning through hands-on analysis using Google's What-If Tool and the controversial COMPAS criminal risk assessment dataset.
 
-## Class Schedule
+## Lab Schedule
 
 ### Session 1: What-If Tool Introduction (30 minutes)
 **Understanding Algorithmic Fairness**
@@ -67,7 +67,7 @@ Students will learn to:
 
 ### 🗂️ Navigation
 - [← Back to Main Course](../README.md)
-- [← Previous: Class 2 - Classification & Data](../class2-classification-data/class2-lecture-guide.md)
-- [→ Next: Class 4 - Advanced Trees](../class4-advanced-trees/class4-lecture-guide.md)
+- [← Previous: Lab 2 - Classification & Data](../lab2-classification-data/lab2-lecture-guide.md)
+- [→ Next: Lab 4 - Advanced Trees](../lab4-advanced-trees/lab4-lecture-guide.md)
 
 

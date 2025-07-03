@@ -1,13 +1,13 @@
-# Class 8: LLMs with API - Lecture Guide
+# Lab 8: LLMs with API - Lecture Guide
 
 ## Table of Contents
-1. [Pre-Class Learning](#pre-class-learning)
-2. [Class Schedule](#class-schedule)
+1. [Pre-Lab Learning](#pre-lab-learning)
+2. [Lab Schedule](#lab-schedule)
 3. [Learning Objectives](#learning-objectives)
 4. [Key Concepts](#key-concepts)
 5. [Quick Links](#quick-links)
 
-## Pre-Class Learning (45 minutes)
+## Pre-Lab Learning (45 minutes)
 ### Required Materials:
 1. **Reading:**
    - [What is an API? (freeCodeCamp)](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)  
@@ -21,7 +21,7 @@
    - Sign up for a free API key (OpenAI, Cohere, or Hugging Face Inference API)
    - Test a simple API call using [curl](https://curl.se/) or [Postman](https://www.postman.com/) (optional, 10 min)
 
-## Class Schedule
+## Lab Schedule
 - (To be added)
 
 ## Learning Objectives
@@ -37,8 +37,8 @@
 ## Quick Links
 | Resource | Description | Format |
 |----------|-------------|---------|
-| [Class 8 Colab Notebook](#) | **Main class notebook** | Google Colab |
+| [Lab 8 Colab Notebook](#) | **Main lab notebook** | Google Colab |
 
 ## Navigation
-**Previous Class:** [← Class 7 - LLMs with NoAPI & Huggingface Use Cases](../class7-gentle-LLMs/class7-lecture-guide.md)  
-**Next Class:** [Class 9 - LLMs with RAG →](../class9-RAGged-LLMs/class9-lecture-guide.md) 
+**Previous Lab:** [← Lab 7 - LLMs with NoAPI & Huggingface Use Cases](../lab7-gentle-LLMs/lab7-lecture-guide.md)  
+**Next Lab:** [Lab 9 - LLMs with RAG →](../lab9-RAGged-LLMs/lab9-lecture-guide.md) 

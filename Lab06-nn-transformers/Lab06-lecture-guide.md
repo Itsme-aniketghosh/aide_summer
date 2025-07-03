@@ -1,13 +1,13 @@
-# Class 6: Neural Networks and Transformers - Lecture Guide
+# Lab 6: Neural Networks and Transformers - Lecture Guide
 
 ## Table of Contents
-1. [Pre-Class Learning](#pre-class-learning)
-2. [Class Schedule](#class-schedule)
+1. [Pre-Lab Learning](#pre-lab-learning)
+2. [Lab Schedule](#lab-schedule)
 3. [Learning Objectives](#learning-objectives)
 4. [Key Concepts](#key-concepts)
 5. [Quick Links](#quick-links)
 
-## Pre-Class Learning (2 hr 45 minutes)
+## Pre-Lab Learning (2 hr 45 minutes)
 ### Required Materials:
 1. **[Coursera Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ibm-data-science)** (45 minutes)
    - Complete Module 3 including hands-on exercises
@@ -21,10 +21,10 @@
    - "[What is ChatGPT Doing…And Why Does it Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)" | [📁 Local File](./Tutorials/What%20Is%20ChatGPT%20Doing.md)
    - Understanding transformer architecture and LLM behavior
 
-## Class Schedule
+## Lab Schedule
 
 ### Intro (5 minutes)
-- Review pre-class materials
+- Review pre-lab materials
 - Overview of neural networks and transformers
 
 ### Session 1: Perceptron by Hand (20 minutes)
@@ -59,7 +59,7 @@
 - **Exercise:** [📁 Self-Attention Blank Exercise PDF](./Exercises/Self-Attention%20Blank%20Exercise.pdf)
 
 ## Learning Objectives
-By the end of this class, students will be able to:
+By the end of this lab, students will be able to:
 - **Neural Network Fundamentals:** Understand perceptrons and basic neural network architecture
 - **Mathematical Foundation:** Perform forward propagation calculations by hand
 - **Transformer Architecture:** Grasp attention mechanisms and transformer concepts
@@ -70,7 +70,7 @@ By the end of this class, students will be able to:
 
 | Concept | Description | Application |
 |---------|-------------|-------------|
-| **Perceptron** | Simplest neural network unit | Binary classification, foundation for neural networks |
+| **Perceptron** | Simplest neural network unit | Binary Classification, foundation for neural networks |
 | **Forward Propagation** | Data flow through network layers | Prediction generation in neural networks |
 | **Activation Functions** | Non-linear transformations | Sigmoid, ReLU, enabling complex patterns |
 | **Attention Mechanism** | Focus on relevant input parts | Core of transformer architecture |
@@ -111,5 +111,5 @@ By the end of this class, students will be able to:
 - [Byron Wallace Research](https://www.byronwallace.com/) - Additional ML resources
 
 ## Navigation
-**Previous Class:** [← Class 5 - Differential Privacy](../class5-differential-privacy/class5-lecture-guide.md)  
-**Next Class:** [Class 7 - LLMs with NoAPI & Huggingface Use Cases →](../class7-capstone/class7-lecture-guide.md)
+**Previous Lab:** [← Lab 5 - Differential Privacy](../lab5-differential-privacy/lab5-lecture-guide.md)  
+**Next Lab:** [Lab 7 - LLMs with NoAPI & Huggingface Use Cases →](../lab7-capstone/lab7-lecture-guide.md)

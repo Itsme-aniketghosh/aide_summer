@@ -1,13 +1,13 @@
-# Class 10: LLM Showcase - Interface - Lecture Guide
+# Lab 10: LLM Showcase - Interface - Lecture Guide
 
 ## Table of Contents
-1. [Pre-Class Learning](#pre-class-learning)
-2. [Class Schedule](#class-schedule)
+1. [Pre-Lab Learning](#pre-lab-learning)
+2. [Lab Schedule](#lab-schedule)
 3. [Learning Objectives](#learning-objectives)
 4. [Key Concepts](#key-concepts)
 5. [Quick Links](#quick-links)
 
-## Pre-Class Learning (90 minutes)
+## Pre-Lab Learning (90 minutes)
 ### Required Materials:
 1. **Reading:**
    - [What is Gradio? (Gradio Blog)](https://www.gradio.app/guides/)  
@@ -20,7 +20,7 @@
    - [GraphRAG (YouTube, 60 mins)](https://www.youtube.com/watch?v=5e1Wzbr8wGU)  
      *Why:* Advanced RAG and graph-based retrieval for LLMs.
 
-## Class Schedule
+## Lab Schedule
 - (To be added)
 
 ## Learning Objectives
@@ -37,9 +37,9 @@
 ## Quick Links
 | Resource | Description | Format |
 |----------|-------------|---------|
-| [Class 10 Colab Notebook](#) | **Main class notebook** | Google Colab |
+| [Lab 10 Colab Notebook](#) | **Main lab notebook** | Google Colab |
 | [GraphRAG (YouTube)](https://www.youtube.com/watch?v=5e1Wzbr8wGU) | Advanced RAG | Video |
 
 ## Navigation
-**Previous Class:** [← Class 9 - LLMs with RAG](../class9-RAGged-LLMs/class9-lecture-guide.md)  
-**Final Class:** Course Completion 
+**Previous Lab:** [← Lab 9 - LLMs with RAG](../lab9-RAGged-LLMs/lab9-lecture-guide.md)  
+**Final Lab:** Course Completion 

@@ -1,19 +1,19 @@
-# Class 1: Intro to Programming and Python - Lecture Guide
+# Lab 1: Intro to Programming and Python - Lecture Guide
 
 ## Table of Contents
 1. [Navigation](#navigation)
-2. [Pre-Class Learning](#pre-class-learning)
-3. [Class Schedule](#class-schedule)
+2. [Pre-Lab Learning](#pre-lab-learning)
+3. [Lab Schedule](#lab-schedule)
 4. [Learning Objectives](#learning-objectives)
 5. [Key Concepts](#key-concepts)
 6. [Quick Links](#quick-links)
 
 ## Navigation
 **Course:** AIDE Summer Machine Learning and Python Programming Bootcamp 2025  
-**Class:** 1 - Introduction to Programming and Python  
-**Next Class:** [→ Class 2 - Classification and Data](../class2-classification-data/class2-lecture-guide.md)
+**Lab:** 1 - Introduction to Programming and Python  
+**Next Lab:** [→ Lab 2 - Classification and Data](../lab2-classification-data/lab2-lecture-guide.md)
 
-## Pre-Class Learning (2 hr 20 minutes)
+## Pre-Lab Learning (2 hr 20 minutes)
 ### Required Materials:
 1. **Harvard CS50 Lecture 0** (1 hr 40 minutes)
    - [Introduction to Computer Science](https://cs50.harvard.edu/x/2024/weeks/0/)
@@ -23,7 +23,7 @@
    - Module 1: Python Basics
    - Focus on syntax and basic operations
   
-## Class Schedule
+## Lab Schedule
 
 ### Opening (5 minutes)
 - Welcome and introductions
@@ -43,7 +43,7 @@
 
 
 ## Learning Objectives
-By the end of this class, students will be able to:
+By the end of this lab, students will be able to:
 - **Core Programming:** Understand variables, data types, and basic programming concepts
 - **String Processing:** Manipulate and format strings using Python methods
 - **Data Structures:** Work with lists, dictionaries, and sets effectively

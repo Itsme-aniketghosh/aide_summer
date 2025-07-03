@@ -1,14 +1,14 @@
-# Class 5: Differential Privacy - Lecture Guide
+# Lab 5: Differential Privacy - Lecture Guide
 
 ## 📋 Table of Contents
-- [Class Schedule](#class-schedule)
+- [Lab Schedule](#lab-schedule)
 - [Learning Objectives & Key Concepts](#learning-objectives--key-concepts)
 - [Quick Links](#quick-links)
 
 ## Overview
 Introduction to differential privacy concepts, de-identification attacks, and privacy-preserving machine learning techniques.
 
-## Class Schedule
+## Lab Schedule
 
 ### Session 1: Differential Privacy Fundamentals (30 minutes)
 **Core Concepts and Theory**
@@ -38,7 +38,7 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 
 
 ## Learning Objectives & Key Concepts
-By the end of this class, students should be able to:
+By the end of this lab, students should be able to:
 
 ### 🔍 Privacy Attack Techniques
 - Perform **linkage attacks** using auxiliary information to re-identify individuals
@@ -79,8 +79,8 @@ By the end of this class, students should be able to:
 
 ### 🗂️ Navigation
 - [← Back to Main Course](../README.md)
-- [← Previous: Class 4 - Advanced Trees](../class4-advanced-trees/class4-lecture-guide.md)
-- [→ Next: Class 6 - Regression & LLM](../class6-regression-llm/class6-lecture-guide.md)
+- [← Previous: Lab 4 - Advanced Trees](../lab4-advanced-trees/lab4-lecture-guide.md)
+- [→ Next: Lab 6 - Regression & LLM](../lab6-regression-llm/lab6-lecture-guide.md)
 
 
 
