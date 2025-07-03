@@ -11,9 +11,12 @@
 ### Required Materials:
 1. **Create a Hugging Face Account** (10 min):
    - [Hugging Face](https://huggingface.co/) - Sign up for a free account
-2. **Watch** (10 min):
+2. **Reading:**
+   - [IBM: What are Word Embeddings?](https://www.ibm.com/think/topics/word-embeddings)  
+     *Why:* Gives students foundational understanding of how LLMs represent language, which is crucial before using APIs.
+3. **Watch** (10 min):
    - [Hugging Face in 15 Minutes](https://www.youtube.com/watch?v=QEaBAZQCtwE)
-3. **Preview the Colab Notebook** (10 min):
+4. **Preview the Colab Notebook** (10 min):
    - Skim through the provided Colab to get familiar with the workflow
 
 ## Class Schedule
@@ -32,6 +35,9 @@
 - Guided walkthrough of the Colab notebook
 - Try out different prompts and models
 - Share findings and discuss results
+
+### In-Class Exploration
+
 
 ### Wrap-up (10 minutes)
 - Q&A and troubleshooting
