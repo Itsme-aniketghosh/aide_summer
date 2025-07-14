@@ -37,7 +37,7 @@
 ## Quick Links
 | Resource | Description | Format |
 |----------|-------------|---------|
-| [Lab 8 Colab Notebook](#) | **Main lab notebook** | Google Colab |
+| [Lab 8 Colab Notebook](https://colab.research.google.com/drive/1quigO7i0pw2vTRO1EwfGwcg5nH4gViyg?usp=sharing) | **Main lab notebook** | Google Colab |
 
 ## Navigation
 **Previous Lab:** [← Lab 7 - LLMs with NoAPI & Huggingface Use Cases](../lab7-gentle-LLMs/lab7-lecture-guide.md)  
