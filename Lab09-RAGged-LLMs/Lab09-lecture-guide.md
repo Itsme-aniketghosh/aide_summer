@@ -84,6 +84,9 @@ This lab is a hands-on, student-friendly exploration of Retrieval-Augmented Gene
 | [RAG Explained (YouTube)](https://www.youtube.com/watch?v=PrYuqtT43BE) | RAG intro | Video |
 | [Vector Database Spreadsheet (Excel)](https://www.byhand.ai/p/vector-database-spreadsheet?utm_source=profile&utm_medium=reader2) | Hands-on | Spreadsheet |
 | [Solutions: Can You Calculate a Vector Database?](https://www.byhand.ai/p/14-can-you-calculate-a-vector-database) | Exercise solution | Article |
+| [What is a Knowledge Graph? (Stanford)](https://web.stanford.edu/class/cs520/2021/notes/knowledge-graphs-intro.html) | Intro to knowledge graphs | Article |
+| [Knowledge Graphs Explained (YouTube, 10 min)](https://www.youtube.com/watch?v=Ukg_U3CnJWI) | Visual intro to knowledge graphs | Video |
+| [GraphRAG: Retrieval-Augmented Generation Meets Knowledge Graphs (Medium)](https://medium.com/@vblagoje/graphrag-retrieval-augmented-generation-meets-knowledge-graphs-2e6e6b6b8b2b) | Intro to GraphRAG | Article |
 
 ## Navigation
 **Previous Lab:** [← Lab 8 - LLMs with API](../lab8-commercial-LLMs/lab8-lecture-guide.md)  
