@@ -1,7 +1,5 @@
 # Lab 9: LLMs with RAG - Lecture Guide
 
-## 🚀 Quick Access
-- **[Lab 9 Colab Notebook](https://colab.research.google.com/drive/1Vf3h65H5BwOwkd8cdXW6QtdBGI_TbJ_h?usp=sharing)**  ← _Open this for all in-class work_
 
 ## Table of Contents
 1. [Pre-Lab Learning](#pre-lab-learning)
@@ -22,7 +20,31 @@ This lab is a hands-on, student-friendly exploration of Retrieval-Augmented Gene
 - Build and explore a simple knowledge graph
 - Learn about model selection and fallback mechanisms
 
-### Notebook Structure & Time Guide
+---
+
+## Pre-Lab Learning (45 minutes)
+### Required Materials:
+1. **Reading:**
+   - [Pinecone: What is a Vector Database?](https://www.pinecone.io/learn/vector-database/)  
+     *Why:* Industry perspective, concise and clear.
+   - | [What is a Knowledge Graph? (Stanford)](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/) | Intro to knowledge graphs | Article |
+   - | [GraphRAG: Enhancing Retrieval Augmented Generation with Knowledge Graphs (Medium)](https://medium.com/@divyanshbhatiajm19/graphrag-enhancing-retrieval-augmented-generation-with-knowledge-graphs-fc15c3901414) | Intro to GraphRAG | Article |
+2. **Video:** 
+   - [YouTube: RAG Explained, 45 mins](https://www.youtube.com/watch?v=PrYuqtT43BE)  
+     *Why:* Short, accessible video to introduce the RAG concept.
+   - | [What is a Knowledge Graph? (YouTube, 6 min)](https://www.youtube.com/watch?v=y7sXDpffzQQ) | Visual intro to knowledge graphs | Video |
+   - | [RAG vs. GraphRAG (YouTube, 5 min)](https://www.youtube.com/watch?v=Aw7iQjKAX2k) | Quick intro to RAG comparisons | Video |
+3. **Hands-on:**
+   - [Vector Database Spreadsheet (Excel)](https://www.byhand.ai/p/vector-database-spreadsheet?utm_source=profile&utm_medium=reader2)  
+     *Why:* In-lab or homework exercise to reinforce how vector search works.
+4. [Deep Dive into Vector Databases by Hand (TDS)](https://towardsdatascience.com/deep-dive-into-vector-databases-by-hand-e9ab71f54f80/)
+  *Note:* We will explore this resource together in lab, working through the concepts and visuals as a group.
+5. [Walkthrough: Vector Databases by Hand](https://www.byhand.ai/p/14-can-you-calculate-a-vector-database)  
+     *Why:* for self-check after the exercise.
+## In-Lab Exploration
+- **[Lab 9 Colab Notebook](https://colab.research.google.com/drive/1Vf3h65H5BwOwkd8cdXW6QtdBGI_TbJ_h?usp=sharing)**  ← _Open this for all in-class work_
+
+## Lab Schedule
 | Section | Time | Focus |
 |---------|------|-------|
 | Setup | 5-8 min | Install packages, API setup |
@@ -33,29 +55,6 @@ This lab is a hands-on, student-friendly exploration of Retrieval-Augmented Gene
 | GraphRAG | 10-15 min | Combined graph + retrieval |
 | Three-way Comparison | 15-20 min | See all approaches on same question |
 | Reflection & Discussion | 8-10 min | Decision frameworks, next steps |
-
----
-
-## Pre-Lab Learning (45 minutes)
-### Required Materials:
-1. **Reading:**
-   - [Pinecone: What is a Vector Database?](https://www.pinecone.io/learn/vector-database/)  
-     *Why:* Industry perspective, concise and clear.
-2. **Video:** 
-   - [YouTube: RAG Explained, 45 mins](https://www.youtube.com/watch?v=PrYuqtT43BE)  
-     *Why:* Short, accessible video to introduce the RAG concept.
-3. **Hands-on:**
-   - [Vector Database Spreadsheet (Excel)](https://www.byhand.ai/p/vector-database-spreadsheet?utm_source=profile&utm_medium=reader2)  
-     *Why:* In-lab or homework exercise to reinforce how vector search works.
-
-## In-Lab Exploration
-- [Deep Dive into Vector Databases by Hand (TDS)](https://towardsdatascience.com/deep-dive-into-vector-databases-by-hand-e9ab71f54f80/)
-  *Note:* We will explore this resource together in lab, working through the concepts and visuals as a group.
-- [Walkthrough: Vector Databases by Hand](https://www.byhand.ai/p/14-can-you-calculate-a-vector-database)  
-     *Why:* for self-check after the exercise.
-
-## Lab Schedule
-- (To be added)
 
 ## Learning Objectives
 - Understand the difference between Plain LLM, RAG, and GraphRAG approaches
@@ -84,9 +83,10 @@ This lab is a hands-on, student-friendly exploration of Retrieval-Augmented Gene
 | [RAG Explained (YouTube)](https://www.youtube.com/watch?v=PrYuqtT43BE) | RAG intro | Video |
 | [Vector Database Spreadsheet (Excel)](https://www.byhand.ai/p/vector-database-spreadsheet?utm_source=profile&utm_medium=reader2) | Hands-on | Spreadsheet |
 | [Solutions: Can You Calculate a Vector Database?](https://www.byhand.ai/p/14-can-you-calculate-a-vector-database) | Exercise solution | Article |
-| [What is a Knowledge Graph? (Stanford)](https://web.stanford.edu/class/cs520/2021/notes/knowledge-graphs-intro.html) | Intro to knowledge graphs | Article |
-| [Knowledge Graphs Explained (YouTube, 10 min)](https://www.youtube.com/watch?v=Ukg_U3CnJWI) | Visual intro to knowledge graphs | Video |
-| [GraphRAG: Retrieval-Augmented Generation Meets Knowledge Graphs (Medium)](https://medium.com/@vblagoje/graphrag-retrieval-augmented-generation-meets-knowledge-graphs-2e6e6b6b8b2b) | Intro to GraphRAG | Article |
+| [What is a Knowledge Graph? (Stanford)](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/) | Intro to knowledge graphs | Article |
+| [What is a Knowledge Graph? (YouTube, 6 min)](https://www.youtube.com/watch?v=y7sXDpffzQQ) | Visual intro to knowledge graphs | Video |
+| [RAG vs. GraphRAG (YouTube, 5 min)](https://www.youtube.com/watch?v=Aw7iQjKAX2k) | Quick intro to RAG comparisons | Video |
+| [GraphRAG: Enhancing Retrieval Augmented Generation with Knowledge Graphs (Medium)](https://medium.com/@divyanshbhatiajm19/graphrag-enhancing-retrieval-augmented-generation-with-knowledge-graphs-fc15c3901414) | Intro to GraphRAG | Article |
 
 ## Navigation
 **Previous Lab:** [← Lab 8 - LLMs with API](../lab8-commercial-LLMs/lab8-lecture-guide.md)  
