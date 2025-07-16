@@ -90,6 +90,12 @@ _Note: The notebook uses a fill-in-the-blank coding style and requires only mini
 | [RAG vs. GraphRAG (YouTube, 5 min)](https://www.youtube.com/watch?v=Aw7iQjKAX2k) | Quick intro to RAG comparisons | Video |
 | [GraphRAG: Enhancing Retrieval Augmented Generation with Knowledge Graphs (Medium)](https://medium.com/@divyanshbhatiajm19/graphrag-enhancing-retrieval-augmented-generation-with-knowledge-graphs-fc15c3901414) | Intro to GraphRAG | Article |
 
+| **Tool References** |  |  |
+| [FAISS: Facebook AI Similarity Search (Official)](https://faiss.ai/) | Official site and docs for FAISS | Website |
+| [What is FAISS? (Pinecone Blog)](https://www.pinecone.io/learn/faiss/) | Beginner-friendly intro to FAISS | Article |
+| [NetworkX: Network Analysis in Python (Official)](https://networkx.org/) | Official docs and tutorials for NetworkX | Website |
+| [NetworkX Tutorial (DataCamp)](https://www.datacamp.com/tutorial/networkx-python-graph-tutorial) | Step-by-step beginner tutorial | Article | 
+
 ## Navigation
 **Previous Lab:** [← Lab 8 - LLMs with API](../lab8-commercial-LLMs/lab8-lecture-guide.md)  
 **Next Lab:** [Lab 10 - LLM Showcase - Interface →](../lab10-llm-showcase/lab10-lecture-guide.md) 
