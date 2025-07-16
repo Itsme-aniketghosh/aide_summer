@@ -59,3 +59,5 @@ By the end of this lab, you'll be able to:
 ## Navigation
 **Previous Lab:** [← Lab 7 - LLMs with NoAPI & Huggingface Use Cases](../lab7-gentle-LLMs/lab7-lecture-guide.md)  
 **Next Lab:** [Lab 9 - LLMs with RAG →](../lab9-RAGged-LLMs/lab9-lecture-guide.md) 
+
+
