@@ -32,6 +32,7 @@ This lab is a hands-on, student-friendly exploration of Retrieval-Augmented Gene
   - [Pinecone: What is a Vector Database?](https://www.pinecone.io/learn/vector-database/) — Industry perspective, concise and clear.
   - [What is a Knowledge Graph? (Stanford)](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/) — Intro to knowledge graphs.
   - [GraphRAG: Enhancing Retrieval Augmented Generation with Knowledge Graphs (Medium)](https://medium.com/@divyanshbhatiajm19/graphrag-enhancing-retrieval-augmented-generation-with-knowledge-graphs-fc15c3901414) — Intro to GraphRAG.
+  - [The GraphRAG Process by Microsoft (Optional)](https://microsoft.github.io/graphrag/) - Intro to GraphRAG applications
 - **Video:**
   - [RAG Explained (YouTube, 45 min)](https://www.youtube.com/watch?v=PrYuqtT43BE) — Short, accessible video to introduce the RAG concept.
   - [What is a Knowledge Graph? (YouTube, 6 min)](https://www.youtube.com/watch?v=y7sXDpffzQQ) — Visual intro to knowledge graphs.
