@@ -62,32 +62,35 @@ A multi-session intensive bootcamp covering Python fundamentals through advanced
 - Attention mechanisms
 - Mathematical foundations of modern AI
 
-### [Lab 07: Discovering What LLMs Can Do – 10 Core Capabilities](Lab07-gentle-LLMs/)
+### [Lab 07: Discovering What LLMs Can Do – 10 Core Capabilities](Lab07-LLMs_capabilities/)
 **Duration:** 120 minutes | **Pre-Lab:** 30 minutes
 
 **Key Topics:**
-- 10 fundamental LLM capabilities (classification, NER, zero-shot, QA, summarization, similarity, generation, translation, chat, text-to-image)
+- 10 fundamental LLM capabilities: classification, NER, zero-shot, QA, summarization, similarity, generation, translation, chat, text-to-image
 - Using Hugging Face pipelines for each capability
 - Building a research assistant by combining capabilities
 - **Main Exercise:** [Lab 7 Colab: LLM Capabilities](https://colab.research.google.com/drive/1qHTo8fC5L4895GQsZr4itCR7KHHHxEX0?usp=sharing)
 
-### [Lab 08: LLMs with API](Lab08-commercial-LLMs/)
-**Duration:** 120 minutes | **Pre-Lab:** TBD
+### [Lab 08: LLMs with API](Lab08-LLMs_with_APIs/)
+**Duration:** 120 minutes | **Pre-Lab:** 45 minutes
 
 **Key Topics:**
-- Using LLM APIs for scalable NLP
-- Authentication and security
-- Prompt engineering
-- **Main Exercise:** (To be added)
+- Using LLM APIs for scalable NLP (HuggingFace, OpenRouter)
+- API authentication and security in Colab
+- Prompt engineering and model comparison
+- Batch processing and real data upload
+- **Main Exercise:** [Lab 8 Notebook](Lab08-LLMs_with_APIs/Exercises/Lab08_LLMwAPIs.ipynb)
 
-### [Lab 09: LLMs with RAG](Lab09-RAGged-LLMs/)
-**Duration:** 120 minutes | **Pre-Lab:** TBD
+### [Lab 09: LLMs with RAG, Vector Databases, and Knowledge Graphs](Lab09-RAGged-LLMs/)
+**Duration:** 120 minutes | **Pre-Lab:** 45 minutes
 
 **Key Topics:**
 - Retrieval-Augmented Generation (RAG)
 - Vector databases and context injection
-- Enhanced LLMs with external data
-- **Main Exercise:** (To be added)
+- Knowledge graphs and GraphRAG
+- Model selection and fallback
+- Fill-in-the-blank, student-friendly coding
+- **Main Exercise:** [Lab 9 Colab Notebook](https://colab.research.google.com/drive/1Vf3h65H5BwOwkd8cdXW6QtdBGI_TbJ_h?usp=sharing)
 
 ### [Lab 10: LLM Showcase - Interface](Lab10-llm-showcase/)
 **Duration:** 120 minutes | **Pre-Lab:** TBD
@@ -108,9 +111,9 @@ A multi-session intensive bootcamp covering Python fundamentals through advanced
 | [Lab 04](Lab04-advanced-trees/) | Advanced Trees | 120 min | COMPAS exercises & solutions |
 | [Lab 05](Lab05-differential-privacy/) | Differential Privacy | 120 min | Census & sleep data analysis |
 | [Lab 06](Lab06-nn-transformers/) | Neural Networks & LLMs | 120 min | Hand calculations & theory |
-| [Lab 07](Lab07-gentle-LLMs/) | 10 LLM Capabilities & Huggingface | 120 min | LLM Capabilities Colab notebook |
-| [Lab 08](Lab08-commercial-LLMs/) | LLMs with API | 120 min | (To be added) |
-| [Lab 09](Lab09-RAGged-LLMs/) | LLMs with RAG | 120 min | (To be added) |
+| [Lab 07](Lab07-LLMs_capabilities/) | 10 LLM Capabilities & Huggingface | 120 min | [LLM Capabilities Colab notebook](https://colab.research.google.com/drive/1qHTo8fC5L4895GQsZr4itCR7KHHHxEX0?usp=sharing) |
+| [Lab 08](Lab08-LLMs_with_APIs/) | LLMs with API | 120 min | [Lab 8 Notebook](Lab08-LLMs_with_APIs/Exercises/Lab08_LLMwAPIs.ipynb) |
+| [Lab 09](Lab09-RAGged-LLMs/) | LLMs with RAG, Vector DBs, GraphRAG | 120 min | [Lab 9 Colab Notebook](https://colab.research.google.com/drive/1Vf3h65H5BwOwkd8cdXW6QtdBGI_TbJ_h?usp=sharing) |
 | [Lab 10](Lab10-llm-showcase/) | LLM Showcase - Interface | 120 min | (To be added) |
 
 ## Repository Structure
@@ -158,5 +161,20 @@ Each lab folder contains:
 All external links have been verified and updated, including:
 - Google Colab integration for all major exercises
 - Current Hugging Face and ML platform references
+
+## Quick Links: External Resources
+
+- [FAISS: Facebook AI Similarity Search (Official)](https://faiss.ai/) — Official site and docs for FAISS
+- [What is FAISS? (Pinecone Blog)](https://www.pinecone.io/learn/faiss/) — Beginner-friendly intro to FAISS
+- [NetworkX: Network Analysis in Python (Official)](https://networkx.org/) — Official docs and tutorials for NetworkX
+- [NetworkX Tutorial (DataCamp)](https://www.datacamp.com/tutorial/networkx-python-graph-tutorial) — Step-by-step beginner tutorial
+- [Beginner's Guide to Vector Databases (byhand.ai)](https://www.byhand.ai/p/beginners-guide-to-vector-databases) — Practical guide
+- [Pinecone: What is a Vector Database?](https://www.pinecone.io/learn/vector-database/) — Industry overview
+- [What is a Knowledge Graph? (Stanford)](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/) — Intro to knowledge graphs
+- [GraphRAG: Enhancing Retrieval Augmented Generation with Knowledge Graphs (Medium)](https://medium.com/@divyanshbhatiajm19/graphrag-enhancing-retrieval-augmented-generation-with-knowledge-graphs-fc15c3901414) — Intro to GraphRAG
+- [The GraphRAG Process by Microsoft](https://microsoft.github.io/graphrag/) — GraphRAG applications
+- [RAG Explained (YouTube)](https://www.youtube.com/watch?v=PrYuqtT43BE) — RAG intro
+- [What is a Knowledge Graph? (YouTube, 6 min)](https://www.youtube.com/watch?v=y7sXDpffzQQ) — Visual intro to knowledge graphs
+- [RAG vs. GraphRAG (YouTube, 5 min)](https://www.youtube.com/watch?v=Aw7iQjKAX2k) — Quick intro to RAG comparisons
 
 
