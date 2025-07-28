@@ -136,7 +136,6 @@ Each part follows the same pattern:
 ### 📚 Additional Help
 - [Pandas Getting Started Guide](https://pandas.pydata.org/docs/getting_started/index.html)
 - [Matplotlib Basic Tutorial](https://matplotlib.org/stable/tutorials/introductory/pyplot.html)
-- Ask questions during the session - everyone learns better when we help each other!
 
 ## 🗂️ Navigation
 - [← Previous: Lab 1 - Python Fundamentals](../Lab01-Python%20Fundemantals/Lab01-lecture-guide.md)
