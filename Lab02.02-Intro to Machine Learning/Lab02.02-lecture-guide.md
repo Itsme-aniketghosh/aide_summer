@@ -100,7 +100,6 @@ By the end of today, you'll be able to:
 **Practical Skills:**
 - Choosing the right algorithm for your problem
 - Interpreting model results
-- Understanding model limitations
 - Applying ML to real-world scenarios
 
 ## Resources
