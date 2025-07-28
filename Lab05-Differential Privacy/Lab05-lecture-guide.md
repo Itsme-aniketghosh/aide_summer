@@ -1,12 +1,23 @@
 # Lab 5: Differential Privacy - Lecture Guide
 
 ## 📋 Table of Contents
+- [Overview](#overview)
+- [Pre-Lab Learning](#pre-lab-learning)
 - [Lab Schedule](#lab-schedule)
-- [Learning Objectives & Key Concepts](#learning-objectives--key-concepts)
+- [Learning Objectives](#learning-objectives)
+- [Key Concepts](#key-concepts)
 - [Quick Links](#quick-links)
 
 ## Overview
-Introduction to differential privacy concepts, de-identification attacks, and privacy-preserving machine learning techniques.
+Introduction to differential privacy concepts, de-identification attacks, and privacy-preserving machine learning techniques. Students will learn why traditional anonymization fails and how differential privacy provides mathematical guarantees for privacy protection while maintaining data utility.
+
+## Pre-Lab Learning (45 minutes)
+### Required Materials:
+1. **Core Reading** (30 minutes)
+   - [Programming Differential Privacy - Chapter 1](https://programming-dp.com/chapter1.html) - Fundamental concepts and mathematical framework
+   
+2. **Supplementary Reading** (15 minutes)
+   - [Differential Privacy for Beginners](https://towardsdatascience.com/a-differential-privacy-example-for-beginners-ef3c23f69401) - Practical introduction with examples
 
 ## Lab Schedule
 
@@ -36,33 +47,38 @@ Introduction to differential privacy concepts, de-identification attacks, and pr
 - Understand the impact of different privacy parameters
 - Privacy-preserving data analysis
 
-
-## Learning Objectives & Key Concepts
+## Learning Objectives
 By the end of this lab, students should be able to:
+- **Understand Privacy Attacks**: Perform linkage and differencing attacks on seemingly anonymized data
+- **Apply Differential Privacy**: Implement basic differential privacy mechanisms using noise addition
+- **Evaluate Privacy-Utility Trade-offs**: Balance privacy protection with data utility for practical applications
+- **Use Privacy Tools**: Work with PyDP library and understand privacy parameters (epsilon, delta)
+- **Recognize Privacy Vulnerabilities**: Identify when traditional anonymization methods fail
+
+## Key Concepts
 
 ### 🔍 Privacy Attack Techniques
-- Perform **linkage attacks** using auxiliary information to re-identify individuals
-- Execute **differencing attacks** on aggregate statistics
-- Demonstrate how **aggregation** can still leak individual information
-- Understand why traditional **de-identification** methods fail
+- **Linkage Attacks**: Using auxiliary information to re-identify individuals
+- **Differencing Attacks**: Exploiting differences in aggregate statistics
+- **Aggregation Vulnerabilities**: How even aggregated data can leak individual information
+- **De-identification Limitations**: Why removing direct identifiers isn't sufficient
 
 ### 🛡️ Differential Privacy Fundamentals  
-- Define **differential privacy** and its mathematical framework
-- Explain the **privacy-utility trade-off** in data analysis
-- Work with **epsilon (ε)** and **delta (δ)** privacy parameters
-- Implement **noise addition mechanisms** (Laplacian noise)
+- **Mathematical Framework**: Formal definition of differential privacy
+- **Privacy Parameters**: Understanding epsilon (ε) and delta (δ) values
+- **Privacy-Utility Trade-off**: Balancing privacy protection with data usefulness
+- **Noise Addition**: Laplacian and Gaussian noise mechanisms
 
 ### 🔧 Practical Implementation
-- Use **PyDP** library for differential privacy algorithms
-- Apply **BoundedSum**, **BoundedMean**, **Count**, and **Max** functions
-- Implement the **randomized response** technique for sensitive surveys
-- Compare privacy-preserving vs. non-private analysis results
+- **PyDP Library**: Google's differential privacy library for Python
+- **Privacy Functions**: BoundedSum, BoundedMean, Count, and Max operations
+- **Randomized Response**: Classic technique for sensitive survey data
+- **Privacy Budgeting**: Managing cumulative privacy loss across queries
 
 ### 📊 Real-world Applications
-- Understand **personally identifiable information (PII)** vulnerabilities  
-- Recognize the limitations of **anonymization** and **pseudonymization**
-- Apply differential privacy to **survey data** and **statistical queries**
-- Connect privacy techniques to **regulatory compliance** (GDPR, CCPA)
+- **Regulatory Compliance**: GDPR, CCPA, and privacy legislation requirements
+- **Industry Use Cases**: Census data, healthcare records, location data
+- **Privacy-Preserving Analytics**: Statistical analysis without compromising privacy
 
 ## 🔗 Quick Links
 
@@ -79,8 +95,8 @@ By the end of this lab, students should be able to:
 
 ### 🗂️ Navigation
 - [← Back to Main Course](../README.md)
-- [← Previous: Lab 4 - Advanced Trees](../lab4-advanced-trees/lab4-lecture-guide.md)
-- [→ Next: Lab 6 - Regression & LLM](../lab6-regression-llm/lab6-lecture-guide.md)
+- [← Previous: Lab 4 - Advanced Decision Trees and Fairlearn Evaluation](../Lab04-Decision%20Trees%20and%20Fairlearn%20Evaluation/Lab04-lecture-guide.md)
+- [→ Next: Lab 6 - Neural Networks Fundamentals](../Lab06-Neural%20Networks%20Fundementals/Lab06-lecture-guide.md)
 
 
 

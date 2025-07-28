@@ -1,4 +1,4 @@
-# Lab 7: Discovering What LLMs Can Do – 10 Core Capabilities
+# Lab 8: Gentle Hugging Face - Capabilities of LLMs
 
 ## Table of Contents
 1. [Pre-Lab Learning](#pre-lab-learning)
@@ -22,14 +22,15 @@
    *Note:* These resources are for exploration and reference before and during the lab.
 4. **Watch** (10 min):
    - [Hugging Face in 15 Minutes](https://www.youtube.com/watch?v=QEaBAZQCtwE)
-5. **Preview the Colab Notebook** (10 min):
-   - [Lab 7 Colab: LLM Capabilities](https://colab.research.google.com/drive/1qHTo8fC5L4895GQsZr4itCR7KHHHxEX0?usp=sharing) – Skim to get familiar with the workflow
+5. **Preview the Main Notebook** (10 min):
+   - [Lab08_LLM_Capabilities.ipynb](Scripts/Lab08_LLM_Capabilities.ipynb) – Skim to get familiar with the workflow
+   - [☁️ Google Colab Version](https://colab.research.google.com/drive/1lGTAstbC8phXBYNgp9c9OdfCxdC1tUa0?usp=sharing) – Run directly in browser
 
 ## Lab Schedule
 
 ### Session 1: Setup & Introduction (10 minutes)
 - Overview of LLMs and Hugging Face
-- Setting up Colab and required libraries
+- Setting up Colab and required libraries ([Direct Colab Link](https://colab.research.google.com/drive/1lGTAstbC8phXBYNgp9c9OdfCxdC1tUa0?usp=sharing))
 - What is a pipeline?
 
 ### Session 2: Category A – Understanding Text (30 minutes)
@@ -94,12 +95,13 @@ By the end of this lab, students will be able to:
 ## Quick Links
 | Resource | Description | Format |
 |----------|-------------|---------|
-| [Lab 7 Colab: LLM Capabilities](https://colab.research.google.com/drive/1qHTo8fC5L4895GQsZr4itCR7KHHHxEX0?usp=sharing) | **Main lab notebook** | Google Colab |
+| [Lab08_LLM_Capabilities.ipynb](Scripts/Lab08_LLM_Capabilities.ipynb) | **Main lab notebook** | Jupyter Notebook |
+| [☁️ Google Colab Version](https://colab.research.google.com/drive/1lGTAstbC8phXBYNgp9c9OdfCxdC1tUa0?usp=sharing) | **Run notebook in browser** | Google Colab |
 | [Hugging Face](https://huggingface.co/) | Model repository and deployment | Web Platform |
 | [Transformers Docs](https://huggingface.co/docs/transformers/) | Hugging Face documentation | Documentation |
 
 ## Navigation
-**Previous Lab:** [← Lab 6 – Neural Networks and Transformers](../Lab06-nn-transformers/Lab06-lecture-guide.md)  
-**Next Lab:** [Lab 8 – LLMs with API →](../Lab08-commercial-LLMs/Lab08-lecture-guide.md)
+**Previous Lab:** [← Lab 7 – Transformers and Embeddings Fundamentals](../Lab07-Transformers%20and%20Embeddings%20Fundementals/Lab07-lecture-guide.md)  
+**Next Lab:** [Lab 9 – Prompt Engineering - LLMs with APIs →](../Lab09-Prompt%20Engineering-LLMs_with_APIs/Lab09-lecture-guide.md)
 
 

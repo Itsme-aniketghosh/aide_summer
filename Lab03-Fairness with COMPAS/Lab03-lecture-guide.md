@@ -1,13 +1,27 @@
-# Lab 3: ML Fairness and Algorithmic Bias - Lecture Guide
+# Lab 3: Fairness with COMPAS - Lecture Guide
 
 ## 📋 Table of Contents
 - [Overview](#overview)
+- [Pre-Lab Learning](#pre-lab-learning)
 - [Lab Schedule](#lab-schedule)
 - [Learning Objectives](#learning-objectives)
 - [Quick Links](#quick-links)
 
 ## Overview
 Exploration of fairness in machine learning through hands-on analysis using Google's What-If Tool and the controversial COMPAS criminal risk assessment dataset.
+
+## Pre-Lab Learning (45 minutes)
+### Required Materials:
+1. **Background Reading** (25 minutes)
+   - [Machine Bias (ProPublica)](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) - The original investigation that exposed COMPAS bias
+   - [Algorithmic Fairness (MIT Technology Review)](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-sentencing-algorithm/) - Overview of fairness in AI systems
+   
+2. **Technical Preparation** (15 minutes)
+   - [What-If Tool Overview](https://pair-code.github.io/what-if-tool/) - Skim the main page and features
+   - [Fairness Metrics Explained](https://developers.google.com/machine-learning/glossary/fairness) - Basic definitions
+   
+3. **Video** (5 minutes)
+   - [Algorithmic Bias Explained in 5 Minutes](https://www.youtube.com/watch?v=gV0_raKR2UQ) - Quick visual introduction
 
 ## Lab Schedule
 
@@ -67,7 +81,7 @@ Students will learn to:
 
 ### 🗂️ Navigation
 - [← Back to Main Course](../README.md)
-- [← Previous: Lab 2 - Classification & Data](../lab2-classification-data/lab2-lecture-guide.md)
-- [→ Next: Lab 4 - Advanced Trees](../lab4-advanced-trees/lab4-lecture-guide.md)
+- [← Previous: Lab 2 - Data Fundamentals and Intro to ML](../Lab02-Data%20Fundemantal%20and%20Intro%20to%20ML/Lab02-lecture-guide.md)
+- [→ Next: Lab 4 - Decision Trees and Fairlearn Evaluation](../Lab04-Decision%20Trees%20and%20Fairlearn%20Evaluation/Lab04-lecture-guide.md)
 
 

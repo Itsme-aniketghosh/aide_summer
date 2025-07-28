@@ -1,4 +1,4 @@
-# Lab 8: LLMs with API - Lecture Guide
+# Lab 9: Prompt Engineering - LLMs with APIs - Lecture Guide
 
 ## Table of Contents
 1. [Pre-Lab Learning](#pre-lab-learning)
@@ -20,12 +20,14 @@
 3. **Hands-on:**
    - Sign up for a free API key (OpenAI, Cohere, or Hugging Face Inference API)
    - Test a simple API call using [curl](https://curl.se/) or [Postman](https://www.postman.com/) (optional, 10 min)
+4. **Preview the Lab Notebook:**
+   - [☁️ Lab09 Google Colab](https://colab.research.google.com/drive/1-lHhlUMUAF4DQWSU5U2Dc97VemjG9G85?usp=sharing) - Preview the workflow and exercises
 
 ## Lab Schedule (120 minutes)
 
 | Time | Section | Activity | Format |
 |------|---------|----------|---------|
-| 0-15 | **Part 1: API Key Setup** | Demo: HuggingFace setup → Exercise: OpenRouter setup | Demo + Exercise |
+| 0-15 | **Part 1: API Key Setup** | Demo: HuggingFace setup → Exercise: OpenRouter setup ([Colab Link](https://colab.research.google.com/drive/1-lHhlUMUAF4DQWSU5U2Dc97VemjG9G85?usp=sharing)) | Demo + Exercise |
 | 15-30 | **Part 2: First API Test** | Demo: HuggingFace call → Exercise: OpenRouter call + comparison | Demo + Exercise |
 | 30-50 | **Part 3: Model Comparison** | Demo: 3 models on same question → Exercise: Your question on 3 models | Demo + Exercise |
 | 50-75 | **Part 4: Prompt Engineering** | Demo: Weak vs strong prompts → Exercise: Improve a weak prompt | Demo + Exercise |
@@ -52,12 +54,13 @@ By the end of this lab, you'll be able to:
 ## Quick Links
 | Resource | Description | Format |
 |----------|-------------|---------|
-| [Lab 8 Notebook](Exercises/Lab08_LLMwAPIs.ipynb) | **Main lab notebook** | Jupyter Notebook |
+| [Lab09_LLMwAPIs.ipynb](Scripts/Lab09_LLMwAPIs.ipynb) | **Main lab notebook** | Jupyter Notebook |
+| [☁️ Google Colab Version](https://colab.research.google.com/drive/1-lHhlUMUAF4DQWSU5U2Dc97VemjG9G85?usp=sharing) | **Run notebook in browser** | Google Colab |
 | [HuggingFace](https://huggingface.co) | Free API for models like Phi-4 | Web Platform |
 | [OpenRouter](https://openrouter.ai) | API access to GPT, Claude, etc. ($1 free credit) | Web Platform |
 
 ## Navigation
-**Previous Lab:** [← Lab 7 - LLMs with NoAPI & Huggingface Use Cases](../lab7-gentle-LLMs/lab7-lecture-guide.md)  
-**Next Lab:** [Lab 9 - LLMs with RAG →](../lab9-RAGged-LLMs/lab9-lecture-guide.md) 
+**Previous Lab:** [← Lab 8 - Gentle Hugging Face - Capabilities of LLMs](../Lab08-Gentle%20Hugging%20Face-Capabilities%20of%20LLMs/Lab08-lecture-guide.md)  
+**Next Lab:** [Lab 10 - Context Engineering - (Graph)RAGged LLMs →](../Lab10-Context%20Engineering-(Graph)RAGged-LLMs/Lab10-lecture-guide.md) 
 
 

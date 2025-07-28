@@ -1,9 +1,10 @@
-# Lab 9: LLMs with RAG - Lecture Guide
+# Lab 10: Context Engineering - (Graph)RAGged LLMs - Lecture Guide
 
 **This lab explores RAG, knowledge graphs, and GraphRAG for philosophy research using a hands-on, fill-in-the-blank notebook.**
 
 ## 🚀 Quick Access
-- **[Lab 9 Colab Notebook](https://colab.research.google.com/drive/1Vf3h65H5BwOwkd8cdXW6QtdBGI_TbJ_h?usp=sharing)**  ← _Open this for all in-class work_
+- **[Lab10_(Graph)RAGged_LLMs.ipynb](Scripts/Lab10_(Graph)RAGged_LLMs.ipynb)** ← _Local notebook_
+- **[☁️ Google Colab Version](https://colab.research.google.com/drive/1fsHOrJtxJhk_3iaYObLFCEiodwHosluZ?usp=sharing)** ← _Run in browser_
 
 ## Table of Contents
 1. [Pre-Lab Learning](#pre-lab-learning)
@@ -14,7 +15,7 @@
 
 ---
 
-## 🧠 Lab 9 Notebook Summary
+## 🧠 Lab 10 Notebook Summary
 
 This lab is a hands-on, student-friendly exploration of Retrieval-Augmented Generation (RAG) and knowledge graphs for philosophy research. You will:
 - Compare three approaches: **Plain LLM**, **RAG**, and **GraphRAG**
@@ -26,29 +27,21 @@ This lab is a hands-on, student-friendly exploration of Retrieval-Augmented Gene
 
 ---
 
-## Pre-Lab Learning (45 minutes)
-### Required Materials:
-- **Reading:**
-  - [Pinecone: What is a Vector Database?](https://www.pinecone.io/learn/vector-database/) — Industry perspective, concise and clear.
-  - [What is a Knowledge Graph? (Stanford)](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/) — Intro to knowledge graphs.
-  - [GraphRAG: Enhancing Retrieval Augmented Generation with Knowledge Graphs (Medium)](https://medium.com/@divyanshbhatiajm19/graphrag-enhancing-retrieval-augmented-generation-with-knowledge-graphs-fc15c3901414) — Intro to GraphRAG.
-  - [The GraphRAG Process by Microsoft (Optional)](https://microsoft.github.io/graphrag/) - Intro to GraphRAG applications
-- **Video:**
-  - [RAG Explained (YouTube, 45 min)](https://www.youtube.com/watch?v=PrYuqtT43BE) — Short, accessible video to introduce the RAG concept.
-  - [What is a Knowledge Graph? (YouTube, 6 min)](https://www.youtube.com/watch?v=y7sXDpffzQQ) — Visual intro to knowledge graphs.
-  - [RAG vs. GraphRAG (YouTube, 5 min)](https://www.youtube.com/watch?v=Aw7iQjKAX2k) — Quick intro to RAG comparisons.
-- **Hands-on:**
-  - [Vector Database Spreadsheet (Excel)](https://www.byhand.ai/p/vector-database-spreadsheet?utm_source=profile&utm_medium=reader2) — In-lab or homework exercise to reinforce how vector search works.
-  - [Deep Dive into Vector Databases by Hand (TDS)](https://towardsdatascience.com/deep-dive-into-vector-databases-by-hand-e9ab71f54f80/) — Explore together in lab, working through concepts and visuals as a group.
-  - [Walkthrough: Vector Databases by Hand](https://www.byhand.ai/p/14-can-you-calculate-a-vector-database) — For self-check after the exercise.
+## Pre-Lab Learning (30 minutes)
+### Materials:
+1. **Vector Databases Foundation** (15 minutes)
+   - [What is a Vector Database? (Pinecone)](https://www.pinecone.io/learn/vector-database/) - Industry overview (10 min read)
+   - [What is a Knowledge Graph? (YouTube)](https://www.youtube.com/watch?v=y7sXDpffzQQ) - Visual intro (6 min)
 
-## In-Lab Exploration
-- _See the Colab notebook for all hands-on work._
+2. **RAG Concepts** (15 minutes)
+   - [RAG vs. GraphRAG (YouTube)](https://www.youtube.com/watch?v=Aw7iQjKAX2k) - Quick comparison (5 min)
+   - [📁 Preview the Lab Notebook](https://colab.research.google.com/drive/1fsHOrJtxJhk_3iaYObLFCEiodwHosluZ?usp=sharing) - Skim the workflow (10 min)
 
-## Lab Schedule
+## Lab Schedule (115 minutes)
+
 | Section | Time | Focus |
 |---------|------|-------|
-| Setup | 5-8 min | Install packages, API setup |
+| Setup | 5-8 min | Install packages, API setup ([Colab Link](https://colab.research.google.com/drive/1fsHOrJtxJhk_3iaYObLFCEiodwHosluZ?usp=sharing)) |
 | Dataset Loading | 8-10 min | Explore philosophy papers |
 | Plain LLM | 8-12 min | Simple API calls, model comparison |
 | RAG System | 15-20 min | Vector search, context injection |
@@ -77,25 +70,28 @@ _Note: The notebook uses a fill-in-the-blank coding style and requires only mini
 | **Model Fallback** | Try multiple models if one fails | Robust, reliable results |
 
 ## Quick Links
+
+### 📚 Lab Materials
 | Resource | Description | Format |
 |----------|-------------|---------|
-| [Lab 9 Colab Notebook](https://colab.research.google.com/drive/1Vf3h65H5BwOwkd8cdXW6QtdBGI_TbJ_h?usp=sharing) | **Main lab notebook** | Google Colab |
-| [Beginner's Guide to Vector Databases (byhand.ai)](https://www.byhand.ai/p/beginners-guide-to-vector-databases) | Practical guide | Article |
-| [Pinecone: What is a Vector Database?](https://www.pinecone.io/learn/vector-database/) | Industry overview | Article |
-| [RAG Explained (YouTube)](https://www.youtube.com/watch?v=PrYuqtT43BE) | RAG intro | Video |
-| [Vector Database Spreadsheet (Excel)](https://www.byhand.ai/p/vector-database-spreadsheet?utm_source=profile&utm_medium=reader2) | Hands-on | Spreadsheet |
-| [Solutions: Can You Calculate a Vector Database?](https://www.byhand.ai/p/14-can-you-calculate-a-vector-database) | Exercise solution | Article |
-| [What is a Knowledge Graph? (Stanford)](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/) | Intro to knowledge graphs | Article |
-| [What is a Knowledge Graph? (YouTube, 6 min)](https://www.youtube.com/watch?v=y7sXDpffzQQ) | Visual intro to knowledge graphs | Video |
-| [RAG vs. GraphRAG (YouTube, 5 min)](https://www.youtube.com/watch?v=Aw7iQjKAX2k) | Quick intro to RAG comparisons | Video |
-| [GraphRAG: Enhancing Retrieval Augmented Generation with Knowledge Graphs (Medium)](https://medium.com/@divyanshbhatiajm19/graphrag-enhancing-retrieval-augmented-generation-with-knowledge-graphs-fc15c3901414) | Intro to GraphRAG | Article |
+| [Lab10_(Graph)RAGged_LLMs.ipynb](Scripts/Lab10_(Graph)RAGged_LLMs.ipynb) | **Main lab notebook** | Jupyter Notebook |
+| [☁️ Google Colab Version](https://colab.research.google.com/drive/1fsHOrJtxJhk_3iaYObLFCEiodwHosluZ?usp=sharing) | **Run notebook in browser** | Google Colab |
 
-| **Tool References** |  |  |
-| [FAISS: Facebook AI Similarity Search (Official)](https://faiss.ai/) | Official site and docs for FAISS | Website |
-| [What is FAISS? (Pinecone Blog)](https://www.pinecone.io/learn/faiss/) | Beginner-friendly intro to FAISS | Article |
-| [NetworkX: Network Analysis in Python (Official)](https://networkx.org/) | Official docs and tutorials for NetworkX | Website |
-| [NetworkX Tutorial (DataCamp)](https://www.datacamp.com/tutorial/networkx-python-graph-tutorial) | Step-by-step beginner tutorial | Article | 
+### 🔗 Key Resources
+| Resource | Description | Format |
+|----------|-------------|---------|
+| [What is a Vector Database? (Pinecone)](https://www.pinecone.io/learn/vector-database/) | Vector database fundamentals | Article |
+| [What is a Knowledge Graph? (Stanford)](https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/) | Knowledge graph introduction | Article |
+| [What is FAISS? (Pinecone Blog)](https://www.pinecone.io/learn/faiss/) | Vector similarity search tool | Article |
+| [Vector Database by Hand Exercise](https://www.byhand.ai/p/vector-database-spreadsheet?utm_source=profile&utm_medium=reader2) | Hands-on practice | Interactive | 
+
+### Connection to Previous Labs:
+This final lab integrates knowledge from:
+- **Lab 7**: Transformer architecture and embeddings foundation
+- **Lab 8**: Hugging Face model usage and capabilities
+- **Lab 9**: API integration and prompt engineering
+- **Lab 10**: Advanced context engineering with RAG and knowledge graphs
 
 ## Navigation
-**Previous Lab:** [← Lab 8 - LLMs with API](../lab8-commercial-LLMs/lab8-lecture-guide.md)  
-**Next Lab:** [Lab 10 - LLM Showcase - Interface →](../lab10-llm-showcase/lab10-lecture-guide.md) 
+**Previous Lab:** [← Lab 9 - Prompt Engineering - LLMs with APIs](../Lab09-Prompt%20Engineering-LLMs_with_APIs/Lab09-lecture-guide.md)  
+**Course Overview:** [← Back to Main Course](../README.md) 
