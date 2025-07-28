@@ -116,7 +116,6 @@ By the end of today, you'll be able to:
 ### 📚 Additional Help
 - [Scikit-learn Beginner Guide](https://scikit-learn.org/stable/getting_started.html)
 - [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary)
-- Ask questions during the session - no question is too basic!
 
 ## 🗂️ Navigation
 - [← Previous: Lab 2.01 - Data Fundamentals](../Lab02.01-Data%20Fundemantals/Lab02.01-lecture-guide.md)
