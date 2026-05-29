@@ -21,8 +21,18 @@
    - [3Blue1Brown — What is a Neural Network?](https://www.youtube.com/watch?v=aircAruvnKk)  
      *Why:* Builds the vocabulary (neurons, activations, layers) needed before the lab.
 
-3. **Preview the notebook (~5 min):**
-   - [Lab09_SAE.ipynb](Scripts/Lab09_SAE.ipynb) — Skim Part 1 and the Neuronpedia instructions in Part 3.
+3. **Pick your notebook (~1 min):**
+   - **[Lab09_SAE.ipynb](Scripts/Lab09_SAE.ipynb)** — GPT-2 Small + Joseph Bloom's SAEs. Runs on **free Colab T4**. No HuggingFace account required. Features are noisier and steering effects subtler, but the workflow is identical. **Default choice for class.**
+   - **[Lab09_SAE_A100.ipynb](Scripts/Lab09_SAE_A100.ipynb)** — Gemma 2 9B + DeepMind's Gemma Scope SAEs. Requires **Colab Pro A100** (paid) and HuggingFace access to the gated Gemma 2 9B model (see step 4). Substantially cleaner features and visibly stronger steering.
+
+4. **Preview the notebook (~5 min):**
+   - Skim Part 1 and the Neuronpedia instructions in Part 3 of whichever version you'll run.
+
+5. **(A100 version only) Get Hugging Face access for Gemma (~5 min, do this before lab):**
+   - Sign in to [huggingface.co](https://huggingface.co) (create account if needed)
+   - Accept the license at [huggingface.co/google/gemma-2-9b](https://huggingface.co/google/gemma-2-9b) — instant approval
+   - Create a read-only token at [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
+   - Save the token somewhere safe — the notebook will prompt for it
 
 ---
 
@@ -32,7 +42,7 @@
 |------|---------|----------|--------|
 | 0–15 | **Part 1: Polysemanticity** | Toy superposition demo; reading the diagram | Demo + Guided reading |
 | 15–25 | **Part 2: SAE Architecture** | Conceptual tour — how sparsity creates monosemanticity | Guided reading |
-| 25–45 | **Part 3 & 4: Finding Features** | Load GPT-2 Small + SAE; extract features on philosophical text | Demo + Exercise |
+| 25–45 | **Part 3 & 4: Finding Features** | Load model + SAE (GPT-2 Small on T4, or Gemma 2 9B on A100); extract features on philosophical text | Demo + Exercise |
 | 45–70 | **Part 5: Artifact Testing** | Cross-register test; PhilPapers; interpret results | Demo + Exercise |
 | 70–100 | **Part 6: Causal Proof** | Steering (activation) + suppression (ablation); three-part causal test | Demo + Exercise |
 | 100–120 | **Part 7: Synthesis** | What was proved, what wasn't; auditing implications | Guided reading |
@@ -44,7 +54,7 @@
 By the end of this lab, students will be able to:
 - Explain why neural networks exhibit **polysemanticity** and what superposition predicts
 - Describe the architecture and training objective of a **Sparse Autoencoder** without implementing one
-- Use **SAELens** to extract feature activations from GPT-2 Small on philosophical text
+- Use **SAELens** to extract feature activations from a pretrained model (GPT-2 Small + Joseph Bloom's SAEs, or Gemma 2 9B + DeepMind's Gemma Scope SAEs) on philosophical text
 - Test whether features are genuine concept encodings or **dataset artifacts** using a cross-register analysis
 - Prove **causal relevance** — not just correlation — using both **activation steering** and **suppression ablation**
 - Articulate what the three-part causal test establishes and what it does not
@@ -65,7 +75,8 @@ By the end of this lab, students will be able to:
 | **Suppression ablation** | Projecting out a feature's decoder direction from the residual stream — tests whether the feature causally *contributes* to the concept |
 | **Convergent causal evidence** | When correlation + steering + suppression all point the same way; equivalent to the gain-of-function / loss-of-function standard in neuroscience |
 | **SAELens** | Python library: `SAE.from_pretrained(...)` |
-| **Neuronpedia** | Web browser for SAE features; useful for forming hypotheses, but labels are corpus-relative (web text only) |
+| **Neuronpedia** | Web browser for SAE features; useful for forming hypotheses, but labels are corpus-relative (Gemma Scope's training mix) |
+| **Gemma Scope** | DeepMind's open SAE suite over every layer of Gemma 2 (2B/9B/27B); current gold standard for public interpretability research |
 
 ---
 
@@ -87,8 +98,10 @@ When all three hold, this meets the same evidential standard neuroscience uses t
 
 | Resource | Description |
 |----------|-------------|
-| [Lab09_SAE.ipynb](Scripts/Lab09_SAE.ipynb) | **Main lab notebook** — GPT-2 Small, free Colab T4 |
+| [Lab09_SAE.ipynb](Scripts/Lab09_SAE.ipynb) | **Free-T4 notebook** — GPT-2 Small + Joseph Bloom's SAEs. Default for class. |
+| [Lab09_SAE_A100.ipynb](Scripts/Lab09_SAE_A100.ipynb) | **A100 / Colab Pro notebook** — Gemma 2 9B + DeepMind's Gemma Scope SAEs. Cleaner features, visible steering. |
 | [SAELens Docs](https://jbloomaus.github.io/SAELens/) | Python library for loading pretrained SAEs |
+| [Gemma Scope Announcement](https://deepmind.google/discover/blog/gemma-scope-helping-the-safety-community-shed-light-on-the-inner-workings-of-language-models/) | DeepMind's open SAE suite on Gemma 2 — what powers the A100 version |
 | [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features/index.html) | **Required reading** — skim intro + figures |
 | [Scaling Monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html) | SAEs at scale on Claude 3 — optional deeper reading |
 | [PhilPapers](https://philpapers.org) | Academic philosophy database — source of the Lab 02.01 dataset |
